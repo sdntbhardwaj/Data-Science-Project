@@ -1,3 +1,3 @@
 # Data-Science-Project 
-Fixed given errors \n
-Added new text element \n
+Fixed given errors <br>
+Added new text element <br>
