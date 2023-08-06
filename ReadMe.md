@@ -59,3 +59,34 @@ Based on the cross-validation results:
 Finally, the model's performance is also assessed on a separate test set. The reported test set results show that the model performs well on unseen data, with a Test Set MSE of approximately 187802.37, Test Set MAE of approximately 300.07, and a Test Set R2 Score of approximately 0.9819.
 
 Overall, the model seems to be performing quite well with relatively low prediction errors and a high R2 score, indicating that it is capable of explaining a significant portion of the target variable's variance. However, it's important to consider the specific context and requirements of the problem being addressed to determine whether this performance is satisfactory.
+
+## For further improvement in the model we can also introduce PCA
+Principal Component Analysis (PCA) is a popular technique used in machine learning and data analysis to reduce the dimensionality of a dataset while retaining as much of the data's variance as possible. By projecting high-dimensional data onto a lower-dimensional subspace, PCA can help reveal the underlying structure and patterns in the data.
+
+Here is a detailed description of the PCA process:
+
+1. Data Preprocessing:
+   - Standardization: If the dataset contains features with different scales, it is crucial to standardize the data (mean = 0, standard deviation = 1) before applying PCA. This step ensures that all features contribute equally to the analysis.
+
+2. Covariance Matrix Calculation:
+   - PCA begins by computing the covariance matrix of the standardized data. The covariance matrix represents the relationships between different features in the dataset. The element at position (i, j) in the covariance matrix represents the covariance between feature i and feature j.
+
+3. Eigenvector-Eigenvalue Decomposition:
+   - Once the covariance matrix is obtained, the next step is to perform an eigendecomposition (eigenvector-eigenvalue decomposition) on the covariance matrix. The eigenvectors and eigenvalues of the covariance matrix are computed.
+   - The eigenvectors represent the principal components of the data, which are the directions of maximum variance. The corresponding eigenvalues represent the amount of variance explained by each principal component.
+   - The eigenvectors are sorted in descending order based on their corresponding eigenvalues. This means that the first eigenvector (principal component) corresponds to the direction of the highest variance in the data, the second eigenvector corresponds to the second-highest variance, and so on.
+
+4. Selection of Principal Components:
+   - To reduce the dimensionality of the data, you select the top k eigenvectors (principal components) that capture the most significant variance in the data. These k components form the lower-dimensional subspace that will be used to represent the data.
+
+5. Projection of Data:
+   - The final step is to project the original data onto the selected principal components to obtain the lower-dimensional representation of the data.
+   - Each data point is transformed by taking the dot product with the selected k eigenvectors, effectively projecting it onto the lower-dimensional subspace.
+
+The benefits of using PCA include:
+- Dimensionality Reduction: PCA helps in reducing the number of features (dimensions) while retaining most of the important information from the original data.
+- Data Visualization: By transforming data into a lower-dimensional space, PCA enables the visualization of data points in two or three dimensions, making it easier to observe patterns and clusters.
+- Noise Reduction: PCA can remove noise and irrelevant information by focusing on the directions of highest variance, which often capture the most significant patterns in the data.
+
+PCA is widely used in various fields, such as image processing, genetics, finance, and many other domains, to facilitate data analysis and visualization.
+
