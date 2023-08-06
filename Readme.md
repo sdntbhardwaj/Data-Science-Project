@@ -52,3 +52,13 @@ On final Stage . Need to evaluate the cost data set to windup the Project.
 
 
 Adding the Visualizations on Tableau public as a link : https://public.tableau.com/app/profile/akshay.ajeesh7816/viz/RetaildataVisualisation/Dashboard1?publish=yes
+
+The retail data visualization is done in Tableau public. Therefore, attached the link to my account for the visualization. 
+Description about the visualization : 
+   The first graph is regarding the orders and the dates. The number of orders recieved in each and every month.
+   The number of school holidays recieved in our database  is 116484 as compared to the school days that is 534529
+   The next graph is the number of customers from each store
+   The variation of customers in days of week shows that the number of customers declined drastically on the 7th day of the week
+   The next circle graph shows the customers count in competions from last month.
+
+The features are dynamic. Which means, the graphs depend on the click of other graphs.
