@@ -90,12 +90,13 @@ The benefits of using PCA include:
 
 PCA is widely used in various fields, such as image processing, genetics, finance, and many other domains, to facilitate data analysis and visualization.
 
-# Model interpretability
+# Model Interpretability
 
 The capacity to understand and describe how a machine learning model creates predictions in a form that people can understand is referred to as model interpretability. It is critical for establishing trust, getting insights, complying with rules, and comprehending a model's decision-making process. Techniques such as feature importance, partial dependency graphs, LIME, SHAP, and attention processes can help enhance model interpretability. However, model performance and interpretability are usually traded off.
 
 Some of the benifits are:-
 1. Transparency: Understanding how a model makes decisions may help to foster trust and transparency, particularly in high-stakes applications where model failures might have serious implications.
-2. Interpretable models can show unexpected connections or biases in data, assisting data scientists and developers in identifying and addressing possible concerns.      Compliance and Regulations: There are legal and ethical constraints in some sectors to explain the reasons behind a model's predictions.
-3. User Acceptance: In systems where models interact with end users, interpretability can improve system usability by allowing users to understand why a particular choice was taken.
-4.  Model Interpretability may reveal which factors have the most influence on the model's predictions.
+2. Interpretable models can show unexpected connections or biases in data, assisting data scientists and developers in identifying and addressing possible concerns.
+3. Compliance and Regulations: There are legal and ethical constraints in some sectors to explain the reasons behind a model's predictions.
+4. User Acceptance: In systems where models interact with end users, interpretability can improve system usability by allowing users to understand why a particular choice was taken.
+5.  Model Interpretability may reveal which factors have the most influence on the model's predictions.
