@@ -83,6 +83,9 @@ Here is a detailed description of the PCA process:
    - The final step is to project the original data onto the selected principal components to obtain the lower-dimensional representation of the data.
    - Each data point is transformed by taking the dot product with the selected k eigenvectors, effectively projecting it onto the lower-dimensional subspace.
 
+PCA:
+Exploratory data analysis, dimensionality reduction, information compression, data de-noising, and many other uses make Principal Component Analysis (PCA) one of the most widely used unsupervised machine learning algorithms.
+
 The benefits of using PCA include:
 - Dimensionality Reduction: PCA helps in reducing the number of features (dimensions) while retaining most of the important information from the original data.
 - Data Visualization: By transforming data into a lower-dimensional space, PCA enables the visualization of data points in two or three dimensions, making it easier to observe patterns and clusters.
